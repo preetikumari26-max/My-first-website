@@ -1,0 +1,172 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #172a2c;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: #172a2c;
+  margin: 10px;
+  font-size: 13px;
+}
+
+nav a:hover {
+  color: white;
+
+}
+
+
+button {
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  
+}
+
+.Explore {
+  background: #477f7b;
+  color: white;
+
+}
+
+
+.hero {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(
+    #83bdb1,
+    #a8d0bd,
+    #f9d3ac,
+    #fff0d6
+  );
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 120px 20px;
+}
+
+.content span {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #ffffff80;
+}
+
+.content h1 {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  line-height: 1.5;
+}
+
+
+.buttons button:first-child {
+  background: #438e89;
+  color: white;
+}
+
+.buttons button:last-child {
+  background: white;
+  margin-left: 10px;
+}
+
+.campus-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background-image: url("Dreamy\ Pastel\ University\ Campus.png");
+
+}
+
+ 
+ 
+
+ 
+
+.all {
+    text-align: center;
+ }
+
+
+.summerp{
+      background-image: url(background.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+      width: 100%; 
+      overflow: hidden;
+
+}
+
+.summer{
+    color: #f3751a;
+    font-size: 90px;
+    margin-top: 0;
+}
+
+.picnic{
+    color: hsl(244, 84%, 37%);
+    font-size: 75px;
+    margin-top: 0;
+}
+
+
+.where{
+    color: rgb(242, 26, 159);
+    font-size: 40px;
+}
+
+.where{
+    color: hwb(323 11% 5%);
+    font-size: 40px;
+}
+
+.para{
+    color: #f33b1a;
+    font-size: 30px;
+}
+
+.date{
+    color: #fff0d6;
+    
+}
+
+.address{
+    color: black;
+}
+
+.email{
+    color: black;
+}
